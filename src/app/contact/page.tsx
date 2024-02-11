@@ -7,7 +7,7 @@ export default function Contact(){
                 <label htmlFor="">Email Please:</label>
                 <input type="email" />
                 <label htmlFor="">Description here:</label>
-                <textarea name="desc" id="" cols="30" rows="10"></textarea>
+                <textarea name="desc" id=""></textarea>
                 <input type="button" value="submit" />
             </form>
         </div>
