@@ -25,7 +25,7 @@ function Header() {
     return (
         <div className="container container-background">
             <nav className="nav-list">
-                <h1><Link href='/'><Image src={logo} className='logo' /></Link></h1>
+                <h1><Link href='/'><Image src={logo} className='logo' alt=''/></Link></h1>
                 <p onClick={handleButtonClick} className='option'>Ts</p>
                 <ul className={classList}>
                     <Link href='/articles' onClick={handleButtonClick}>Articles</Link>

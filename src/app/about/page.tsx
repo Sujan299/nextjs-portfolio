@@ -9,7 +9,7 @@ import { useState } from 'react';
 export default function About() {
     const [fullscreenImage, setFullscreenImage] = useState(null);
     const images = [image1,image2, image3, image4]
-    const handleImageClick = (image) => {
+    const handleImageClick = (image: any) => { // : any -> help us to remove error to host in vercel
         setFullscreenImage(image);
     };
 
